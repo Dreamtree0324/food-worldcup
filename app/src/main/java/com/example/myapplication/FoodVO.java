@@ -1,15 +1,19 @@
 package com.example.myapplication;
 
+import android.media.Image;
+
 public class FoodVO {
     private int id;
     private String name;
+    private int img;
 
     public FoodVO() {
     }
 
-    public FoodVO(int id, String name) {
+    public FoodVO(int id, String name,int img) {
         this.id = id;
         this.name = name;
+        this.img = img;
     }
 
     public int getId() {
@@ -28,4 +32,11 @@ public class FoodVO {
         this.name = name;
     }
 
+    public int getImg() {
+        return img;
+    }
+
+    public void setImg(int img) {
+        this.img = img;
+    }
 }

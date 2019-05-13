@@ -10,9 +10,14 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="우승 음식!"
+        android:text="당신의 최애 음식은!!"
         android:textSize="34dp"
         android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/foodimg"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
 
     <TextView
         android:id="@+id/winfood"
